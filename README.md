@@ -20,6 +20,10 @@ Simple,free and easy-to-use Leader Board system using https://dreamlo.com.
     ```
 - or Build from source
 - or Copy the `src/pydreamlo` folder to your project directory and import it.
+### TODO:
+- emscripten support(pygame-wasm).
+  requests calls need to managed
+- code rewrite.
 ### Usage:
 - Create a dreamlo url by going to https://dreamlo.com
 For using this LeaderBoard you need 2 `url`s (`private dreamlo url` and `public dreamplo url`)
