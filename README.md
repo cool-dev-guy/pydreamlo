@@ -1,5 +1,25 @@
 # PYDREAMLO
 Simple,free and easy-to-use Leader Board system using https://dreamlo.com.
+
+### Install
+- Use pip to install
+  ```bash
+    $ pip install pydreamlo
+    ```
+    
+    or
+    
+    ```bash
+    $ pip3 install pydreamlo
+    ```
+    
+    or
+    
+    ```bash
+    $ python -m pip install pydreamlo
+    ```
+- or Build from source
+- or Copy the `src/pydreamlo` folder to your project directory and import it.
 ### Usage:
 - Create a dreamlo url by going to https://dreamlo.com
 For using this LeaderBoard you need 2 `url`s (`private dreamlo url` and `public dreamplo url`)
