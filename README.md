@@ -8,20 +8,20 @@ For using this LeaderBoard you need 2 `url`s (`private dreamlo url` and `public 
         - `private url` : copy the `private-key` given by dreamlo and join it with the url.(the protocol may be different)
           
             ```python
-            pr_key = http://dreamlo.com/{your_private_key}
+            pr_key = "http://dreamlo.com/{your_private_key}"
             ```
             
         - `private url` : copy the `public-key` given by dreamlo and join it with the url.(the protocol may be different)
           
             ```python
-            pu_key = http://dreamlo.com/{your_public_key}
+            pu_key = "http://dreamlo.com/{your_public_key}"
             ```
             
 - Use `dreamlopy` to work with your leader board. 
     ```python
     from pydreamlo import LeaderBoard
-    pr_key = http://dreamlo.com/{your_private_key}
-    pu_key = http://dreamlo.com/{your_public_key}
+    pr_key = "http://dreamlo.com/{your_private_key}"
+    pu_key = "http://dreamlo.com/{your_public_key}"
 
     cool_leader_board = LeaderBoard(pr_key,pu_key)
     ```
