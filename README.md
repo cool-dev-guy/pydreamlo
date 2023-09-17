@@ -91,3 +91,4 @@ For using this LeaderBoard you need 2 `url`s (`private dreamlo url` and `public 
     - `.get_user(username,rtype)`
 
         used to get deatils of a specific user.
+> NOTE: This uses dreamlo service and cool-dev-guy is not related with the service,this module is just a python package for using the dreamlo service which was made for unity engine.So use the package at your own risk.
