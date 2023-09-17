@@ -1,4 +1,8 @@
-import requests
+import sys
+if sys.platform == "emscripten":
+    print("Not Implemented")
+else:
+    import requests
 class LeaderBoard:
     def __init__(self,dreamlo_url:str,dreamlo_public:str):
         self.dreamlo_url = dreamlo_url
